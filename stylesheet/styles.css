@@ -261,10 +261,6 @@ h1 {
   color: #67a2c7;
 }
 
-.genheader h1 {
-  font-size: 200px;
-}
-
 @keyframes typing {
   from {
     width: 0
@@ -288,11 +284,25 @@ h1 {
 }
 
 @media screen and (max-width: 480px) {
+  .home {
+    min-height: auto;
+    padding: 1.2rem 1rem;
+    margin: 0;
+    overflow: visible;
+  }
+
+  .home i {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
   .typewriter p {
     white-space: normal;
     border-right: none;
     animation: none;
+    width: auto;
     font-size: 1.2rem;
+    letter-spacing: normal;
   }
 
   .navbar {
@@ -380,6 +390,12 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .footer p {
+    font-size: 4.5vw;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 
