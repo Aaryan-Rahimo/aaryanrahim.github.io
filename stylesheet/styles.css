@@ -117,7 +117,7 @@ h1 {
 }
 
 .name-highlight {
-  background-image: -webkit-linear-gradient(60deg, #80ffdb, #4ea8de, #5e60ce, #7400b8);
+  background-image: -webkit-linear-gradient(60deg, #60eec6, #4ea8de, #5e60ce, #7400b8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
